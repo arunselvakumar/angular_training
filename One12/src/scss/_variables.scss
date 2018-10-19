@@ -1,14 +1,17 @@
+//
+// Border
+//––––––––––––––––––––––––––––––––––––––––––––––––––
 $border-radius:.375rem !default;
 
 //
 // Fonts
-//
+//––––––––––––––––––––––––––––––––––––––––––––––––––
 $font-weight-normal: 300 !default;
 $font-weight-bold: 500 !default;
 
 //
 // Headings
-//
+//––––––––––––––––––––––––––––––––––––––––––––––––––
 $h1-font-size: 3.052rem !default;
 $h2-font-size: 2.441rem !default;
 $h3-font-size: 1.953rem !default;
@@ -31,7 +34,7 @@ $headings-groups-margin-top: 2.25rem !default; // ~36px
 
 //
 // Displays
-//
+//––––––––––––––––––––––––––––––––––––––––––––––––––
 $display1-font-size: 7.451rem !default;
 $display2-font-size: 5.96rem !default;
 $display3-font-size: 4.768rem !default;
@@ -42,18 +45,18 @@ $display-margin-bottom: 0.75rem !default;
 
 //
 // Paragraphs
-//
+//––––––––––––––––––––––––––––––––––––––––––––––––––
 $paragraphs-margin-bottom: 1.75rem !default;
 
 //
 // Horizontal Rules
-//
+//––––––––––––––––––––––––––––––––––––––––––––––––––
 $horizontalrule-margin-top: 1.125rem !default;
 $horizontalrule-margin-bottom: 1.125rem !default;
 
 //
 // BlockQuotes
-//
+//––––––––––––––––––––––––––––––––––––––––––––––––––
 $blockquote-font-size: 1.5rem !default;
 $blockquote-footer-font-size: 1.125rem !default;
 $blockquote-margin-bottom: 0.75rem !default;
@@ -61,15 +64,25 @@ $blockquote-margin-bottom: 0.75rem !default;
 
 //
 // Buttons
-//
+//––––––––––––––––––––––––––––––––––––––––––––––––––
 $input-btn-padding-x:1rem !default;
 $input-btn-padding-y:.664rem !default;
 
 //
 // Forms
-//
+//––––––––––––––––––––––––––––––––––––––––––––––––––
 $forms-padding-x:1rem !default;
 $forms-padding-y:.664rem !default;
 $input-form-line-height: 1.125rem !default;
 $input-font-size: .95rem !default;
 $input-border-radius: $border-radius !default;
+
+//
+//  Media Query Breakpoints
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+$breakpoints: (
+  xs: 576px,
+  sm: 768px,
+  md: 992px,
+  lg: 1200px
+);
